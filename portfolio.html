@@ -4,65 +4,80 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <title>Document</title>
+    <style>
+        li {list-style-type: none;}
+        ul {margin-left: 0; padding-left: 0;}
+        a {text-decoration: none;} 
+        a {color: #212121}
+        a:active {color:#2196F3;}
+        button:hover { background-color: #2196F3; ; color:#ffffff;}
+       </style>
   </head>
-  <body>
-    <header>
-      <!--Коробка хедера (топ-линия)-->
-      <div>
+  <body class="body">
+    <header class="headline">
         <!--Web Studio-->
-        <a href=""> Web<span>Studio</span> </a>
+        <a class="webstudio" href=""> Web<span class="studio-color">Studio</span> </a>
         <!--Панель навигации-->
-        <nav>
-          <ul>
-            <li><a href="Студия">Студия</a></li>
-            <li><a href="Портфолио">Портфолио</a></li>
-            <li><a href="Контакты">Контакты</a></li>
+        <nav class="menunav">
+          <ul class="menunav-txt">
+            <li class="studio"><a href="Студия">Студия</a></li>
+            <li class="portf"><a href="Портфолио">Портфолио</a></li>
+            <li class="contacts"><a href="Контакты">Контакты</a></li>
+            
           </ul>
         </nav>
         <!--Панель адрес и телефон-->
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="menunav-txt email"><a style="color: #757575" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="menunav-txt tel"><a style="color: #757575" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-      </div>
+    
     </header>
     <!--Портфолио-->
-    <main>
+    <main class="portfolio">
         <ul>
-            <!--Кнопки портфолио-->
-            <li>
-                <button>Все</button>
-                <button>Веб-сайты</button>
-                <button>Приложения</button>
-                <button>Дизайн</button>
-                <button>Маркетинг</button>
+            <!--Кнопки портфолио (filters)-->
+            <li class="filters">
+                <button class="filter-txt filter1">Все</button>
+                <button class="filter-txt filter2">Веб-сайты</button>
+                <button class="filter-txt filter3">Приложения</button>
+                <button class="filter-txt filter4">Дизайн</button>
+                <button class="filter-txt filter5">Маркетинг</button>
             </li>
             <!--Картинки портфолио-->
-            <li> <img
+            <li class="project1"> <img
                 src="images/pic1.jpg"
                 width="370"
                 height="294"
-                alt="Картинка 1"/> </li>
+                alt="Картинка 1"/>
                 <h3>Технокряк</h3>
                 <p>Веб-сайт</p>
-            <li>
+            </li>
+            <li class="project2">
                 <img
                 src="images/pic2.jpg"
                 width="370"
                 height="294"
                 alt="Картинка 1"/>
                 <h3>Постер New Orlean vs Golden Star</h3>
-                <p>Дизайн</p>
+                Дизайн
             </li>
-            <li>
+            <li class="project3">
                  <img
                 src="images/pic3.jpg"
                 width="370"
                 height="294"
                 alt="Картинка 1"/>
                 <h3>Ресторан Seafood</h3>
-                <p>Приложение</p>
+                Приложение
             </li>
             <li>
                 <img
@@ -71,15 +86,16 @@
                 height="294"
                 alt="Картинка 1"/>
                 <h3>Проект Prime</h3>
-                <p>Маркетинг</p>
+                Маркетинг
             </li>
+            <li>
                 <img
                 src="images/pic5.jpg"
                 width="370"
                 height="294"
                 alt="Картинка 1"/>
                 <h3>Проект Boxes</h3>
-                <p>Приложение</p>
+                Приложение
             </li>
             <li>
                 <img
@@ -88,7 +104,7 @@
                 height="294"
                 alt="Картинка 1"/>
                 <h3>Inspiration has no Borders</h3>
-                <p>Веб-сайт</p>
+                Веб-сайт
             </li>
             <li>
                 <img
@@ -97,7 +113,7 @@
                 height="294"
                 alt="Картинка 1"/>
                 <h3>Издание Limited Edition</h3>
-                <p>Дизайн</p>
+                Дизайн
             </li>
             <li>
                 <img
@@ -106,7 +122,7 @@
                 height="294"
                 alt="Картинка 1"/>
                 <h3>Проект LAB</h3>
-                <p>Маркетинг</p>
+                Маркетинг
             </li>
             <li>
                 <img
@@ -115,7 +131,24 @@
                 height="294"
                 alt="Картинка 1"/>
                 <h3>Growing Business</h3>
-                <p>Приложение</p>
+                Приложение
             </li>
             
-        </ul>
+            </ul>
+    </main>        
+            <footer class="footer">
+            <a href=""> Web<span>Studio</span> </a>
+            <address>
+              <ul>
+                <li>
+                  <a href="https://goo.gl/maps/CRWfaXV7XRGESjdQ7">
+                    г. Киев, пр-т Леси Украинки, 26</a
+                  >
+                </li>
+                <li><a href="mailto:info@example.com">info@example.com</a></li>
+                <li><a href="tel:+380961111111">+38 099 111 11 11</a></li>
+              </ul>
+            </address>
+          </footer>
+    </body>
+    </html>

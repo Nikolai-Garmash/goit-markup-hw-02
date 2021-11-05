@@ -2,7 +2,8 @@
     position: relative;
     width: 1600px;
     height: 1880px;
-    background: #FFFFFF;
+    background: #ffffff;
+    border: 1px solid #000000;
 
 }
 
@@ -11,8 +12,19 @@
             Width: 1600px;
             Height: 80px;
             background-color: #d4a1a1;
+            left: 0px;
+            top: 0px;
+            border-bottom: 1px solid #ECECEC ;
         }
-    .headline
+
+    .hdlin {
+        position: absolute;
+        width: 1600px;
+        height: 0px;
+        left: 0px;
+        top: 80px;
+        border: 1px solid #ECECEC;
+    }
 
         .webstudio {
                 position: absolute;
@@ -32,21 +44,12 @@
                 color: #000000;
         }
 
-        .exp {
-            position: absolute;
-                width: 494px;
-                height: px;
-                left: 453px;
-                top: 32px;
-                background-color: rgb(48, 233, 10);
-        }
         .menunav {
                 position: absolute;
                 width: 294px;
                 height: 16px;
                 left: 453px;
                 top: 32px;
-                background-color: rgb(48, 233, 10);
                
         }
         .menunav-txt {
@@ -101,6 +104,73 @@
             top: 174px;
             background-color: aqua;
         }
+            .filters {
+                position: absolute;
+                width: 611px;
+                height: 54px;
+                left: 280px;
+                top: 174px;
+            }
+                .filter1 {
+                    position: absolute;
+                    width: 73px;
+                    height: 38px;
+                    left: 0px;
+                    top: 0px;
+                }
+                .filter2 {
+                    position: absolute;
+                    width: 128px;
+                    height: 38px;
+                    left: 81px;
+                    top: 0px;
+                }
+                .filter3 {
+                    position: absolute;
+                    width: 145px;
+                    height: 38px;
+                    left: 217px;
+                    top: 0px;
+                }
+                .filter4 {
+                    position: absolute;
+                    width: 103px;
+                    height: 38px;
+                    left: 370px;
+                    top: 0px;
+                }
+                .filter5 {
+                    position: absolute;
+                    width: 130px;
+                    height: 38px;
+                    left: 481px;
+                    top: 0px;
+                }
+                .filter-txt {
+                    color: #212121;
+                    background-color: #F5F4FA;
+                }
+                .project1 {
+                    position: absolute;
+                    width: 370px;
+                    height: 404px;
+                    left: 0px;
+                    top: 262px;
+                }
+                .project2 {
+                    position: absolute;
+                    width: 370px;
+                    height: 404px;
+                    left: 400px;
+                    top: 262px;
+                }
+                .project3 {
+                    position: absolute;
+                    width: 370px;
+                    height: 404px;
+                    left: 800px;
+                    top: 262px;
+                }
 .footer {
             position: absolute;
             width: 1600px;
