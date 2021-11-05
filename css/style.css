@@ -11,7 +11,6 @@
             position: absolute;
             Width: 1600px;
             Height: 80px;
-            background-color: #d4a1a1;
             left: 0px;
             top: 0px;
             border-bottom: 1px solid #ECECEC ;
@@ -94,7 +93,6 @@
             height: 1360px;
             left: 215px;
             top: 174px;
-            background-color: aqua;
         }
             .filters {
                 position: absolute;
@@ -204,6 +202,35 @@
                     height: 404px;
                     left: 800px;
                     top: 956px;
+                }
+                .project-titles {
+                    position: absolute;
+                    width: 322px;
+                    height: 36px;
+                    left: 24px;
+                    top: 314px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 36px;
+                    letter-spacing: 0.06em;
+                    color: #212121;
+                }
+                .text-titles {
+                    position: absolute;
+                    width: 322px;
+                    height: 30px;
+                    left: 24px;
+                    top: 354px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 30px;
+                    letter-spacing: 0.03em;
+                    color: #757575;
+
                 }
 .footer {
             position: absolute;
