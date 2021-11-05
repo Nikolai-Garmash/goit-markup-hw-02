@@ -107,6 +107,7 @@
                     height: 38px;
                     left: 0px;
                     top: 0px;
+                    border-radius: 4px;
                 }
                 .filter2 {
                     position: absolute;
@@ -114,6 +115,7 @@
                     height: 38px;
                     left: 81px;
                     top: 0px;
+                    border-radius: 4px;
                 }
                 .filter3 {
                     position: absolute;
@@ -121,6 +123,7 @@
                     height: 38px;
                     left: 217px;
                     top: 0px;
+                    border-radius: 4px;
                 }
                 .filter4 {
                     position: absolute;
@@ -128,6 +131,7 @@
                     height: 38px;
                     left: 370px;
                     top: 0px;
+                    border-radius: 4px;
                 }
                 .filter5 {
                     position: absolute;
@@ -135,6 +139,7 @@
                     height: 38px;
                     left: 481px;
                     top: 0px;
+                    border-radius: 4px;
                 }
                 .filter-txt {
                     color: #212121;
