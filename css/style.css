@@ -17,14 +17,6 @@
             border-bottom: 1px solid #ECECEC ;
         }
 
-    .hdlin {
-        position: absolute;
-        width: 1600px;
-        height: 0px;
-        left: 0px;
-        top: 80px;
-        border: 1px solid #ECECEC;
-    }
 
         .webstudio {
                 position: absolute;
@@ -82,14 +74,14 @@
                     left: 0px;
                     top: 0px;
             }
-        .tel {
+        .tel-hd {
                 position: absolute;
                 width: 122px;
                 height: 16px;
                 left: 1263px;
                 top: 32px;
         }
-        .email {
+        .email-hd {
                 position: absolute;
                 width: 135px;
                 height: 16px;
@@ -109,7 +101,7 @@
                 width: 611px;
                 height: 54px;
                 left: 280px;
-                top: 174px;
+                top: 0px;
             }
                 .filter1 {
                     position: absolute;
@@ -155,21 +147,63 @@
                     width: 370px;
                     height: 404px;
                     left: 0px;
-                    top: 262px;
+                    top: 88px;
                 }
                 .project2 {
                     position: absolute;
                     width: 370px;
                     height: 404px;
                     left: 400px;
-                    top: 262px;
+                    top: 88px;
                 }
                 .project3 {
                     position: absolute;
                     width: 370px;
                     height: 404px;
                     left: 800px;
-                    top: 262px;
+                    top: 88px;
+                }
+                .project4 {
+                    position: absolute;
+                    width: 370px;
+                    height: 404px;
+                    left: 0px;
+                    top: 522px;
+                }
+                .project5 {
+                    position: absolute;
+                    width: 370px;
+                    height: 404px;
+                    left: 400px;
+                    top: 522px;
+                }
+                .project6 {
+                    position: absolute;
+                    width: 370px;
+                    height: 404px;
+                    left: 800px;
+                    top: 522px;
+                }
+                .project7 {
+                    position: absolute;
+                    width: 370px;
+                    height: 404px;
+                    left: 0px;
+                    top: 956px;
+                }
+                .project8 {
+                    position: absolute;
+                    width: 370px;
+                    height: 404px;
+                    left: 400px;
+                    top: 956px;
+                }
+                .project9 {
+                    position: absolute;
+                    width: 370px;
+                    height: 404px;
+                    left: 800px;
+                    top: 956px;
                 }
 .footer {
             position: absolute;
@@ -177,4 +211,69 @@
             height: 252px;
             left: 0px;
             top: 1628px;
+            position: absolute;
+            background: #2F303A;
         }
+            .webstudio-ft {
+                position: absolute;
+                width: 145px;
+                height: 31px;
+                left: 215px;
+                top: 60px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 26px;
+                line-height: 31px;
+                letter-spacing: 0.03em;
+                color: #2196F3;
+            }
+            .adress {
+                position: absolute;
+                width: 231px;
+                height: 81px;
+                left: 215px;
+                top: 111px;
+            }
+            .map {
+                position: absolute;
+                width: 231px;
+                height: 21px;
+                left: 0px;
+                top: 0px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 24px;
+                letter-spacing: 0.03em;
+                color: #FFFFFF;
+            }
+            .email {
+                position: absolute;
+                width: 231px;
+                height: 21px;
+                left: 0px;
+                top: 39px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 24px;
+                letter-spacing: 0.03em;
+                color: rgba(255, 255, 255, 0.6);
+            }
+            .tel {
+                position: absolute;
+                width: 231px;
+                height: 21px;
+                left: 0px;
+                top: 78px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 24px;
+                letter-spacing: 0.03em;
+                color: rgba(255, 255, 255, 0.6);
+            }
