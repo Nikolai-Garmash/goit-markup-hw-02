@@ -147,15 +147,13 @@ a:focus {
 }
 .sect-what-we-doing-title {
   position: absolute;
-  width: 376px;
-  height: 42px;
   left: 397px;
   top: 0px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 1, 17;
+  line-height: 1,17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -192,9 +190,7 @@ a:focus {
 }
 .sect-our-team-title {
   position: absolute;
-  width: 264px;
-  height: 42px;
-  left: 668px;
+    left: 668px;
   top: 94px;
   font-family: Roboto;
   font-style: normal;
