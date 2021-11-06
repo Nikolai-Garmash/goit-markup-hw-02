@@ -7,10 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Document</title>
     <style>
         li {list-style-type: none;}
@@ -19,7 +16,9 @@
         a {color: #212121}
         a:active {color:#2196F3;}
         button:hover { background-color: #2196F3; ; color:#ffffff;}
+        button:focus { background-color: #2196F3; ; color:#ffffff;}
         a:hover {color:#2196F3;}
+        a:focus {color:#2196F3;}
        </style>
   </head>
   <body class="body-sec">
@@ -37,8 +36,8 @@
         </nav>
         <!--Панель адрес и телефон-->
         <ul>
-          <li class="menunav-txt email-hd"><a style="color: #757575" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="menunav-txt tel-hd"><a style="color: #757575" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="menunav-txt email-hd"><a class="hd-color" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="menunav-txt tel-hd email-hd-color"><a class="hd-color" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     
     </header>
@@ -47,11 +46,11 @@
         <ul>
             <!--Кнопки портфолио (filters)-->
             <li class="filters">
-                <button class="filter-txt filter1">Все</button>
-                <button class="filter-txt filter2">Веб-сайты</button>
-                <button class="filter-txt filter3">Приложения</button>
-                <button class="filter-txt filter4">Дизайн</button>
-                <button class="filter-txt filter5">Маркетинг</button>
+                <button class="filter-txt filter1 pointer">Все</button>
+                <button class="filter-txt filter2 pointer">Веб-сайты</button>
+                <button class="filter-txt filter3 pointer">Приложения</button>
+                <button class="filter-txt filter4 pointer">Дизайн</button>
+                <button class="filter-txt filter5 pointer">Маркетинг</button>
             </li>
             <!--Картинки портфолио-->
             <li class="project1"> <img
@@ -137,7 +136,7 @@
             
             </ul>
     </main>        
-            <footer class="footer">
+            <footer class="footer footer-top-second-page">
             <a class="webstudio-ft" href=""> Web<span class="studio-color">Studio</span> </a>
             <address class="adress">
               <ul>

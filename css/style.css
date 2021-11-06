@@ -6,6 +6,10 @@
     border: 1px solid #000000;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
     .hero-start {
         position: absolute;
         width: 1600px;
@@ -38,24 +42,17 @@
         left: 700px;
         top: 350px;
         background-color: #2196F3;
-        }
-        .hero-button-text {
-        position: absolute;
-        width: 136px;
-        height: 30px;
-        left: 32px;
-        top: 10px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
         font-size: 16px;
         line-height: 30px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
         color: #FFFFFF;
-    }
+        letter-spacing: 0.06em;
+        }
+     
 
     .sect-properties {
             position: absolute;
@@ -280,14 +277,17 @@
             top: 319px;
             margin-top: 0px;
         }
-        .footer-first-page {
+        .footer {
             position: absolute;
             width: 1600px;
             height: 252px;
             left: 0px;
-            top: 2097px;
             background: #2F303A;
         }
+    .footer-top-first-page {
+        top: 2097px; 
+        }
+
 .body-sec {
     position: relative;
     width: 1600px;
@@ -377,6 +377,10 @@
                 left: 1078px;
                 top: 32px;
         }
+        .hd-color {
+            color: #757575;
+        }
+
 .portfolio {
             position: absolute;
             width: 1170px;
@@ -532,8 +536,10 @@
             width: 1600px;
             height: 252px;
             left: 0px;
-            top: 1628px;
             background: #2F303A;
+        }
+        .footer-top-second-page {
+            top: 1628px; 
         }
             .webstudio-ft {
                 position: absolute;
