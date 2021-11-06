@@ -408,6 +408,7 @@ a:focus {
   height: 54px;
   left: 280px;
   top: 0px;
+  font-family: inherit;
 }
 .filter1 {
   position: absolute;
@@ -611,4 +612,7 @@ a:focus {
   line-height: 1, 71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.studio-color-ft {
+    color: #ffffff;
 }
