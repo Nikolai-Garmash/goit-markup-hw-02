@@ -1,4 +1,10 @@
-
+.body-first {
+    position: relative;
+    width: 1600px;
+    height: 2349px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
 
     .hero-start {
         position: absolute;
@@ -160,7 +166,6 @@
             height: 648px;
             left: 0px;
             top: 1449px;
-            background-color: burlywood;
         }
         .sect-our-team-title {
             position: absolute;
@@ -184,7 +189,6 @@
             height: 368px;
             left: 215px;
             top: 186px;
-            background-color: chartreuse;
         }
         .sect-our-team-box-ihor {
             position: absolute;
@@ -275,6 +279,14 @@
             left: 92px;
             top: 319px;
             margin-top: 0px;
+        }
+        .footer-first-page {
+            position: absolute;
+            width: 1600px;
+            height: 252px;
+            left: 0px;
+            top: 2097px;
+            background: #2F303A;
         }
 .body-sec {
     position: relative;
@@ -521,7 +533,6 @@
             height: 252px;
             left: 0px;
             top: 1628px;
-            position: absolute;
             background: #2F303A;
         }
             .webstudio-ft {
