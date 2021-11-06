@@ -4,63 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <title>Document</title>
+    <style>
+      li {list-style-type: none;}
+      ul {margin-left: 0; padding-left: 0;}
+      a {text-decoration: none;} 
+      a {color: #212121}
+      a:active {color:#2196F3;}
+      button:hover { background-color: #2196F3; ; color:#ffffff;}
+      a:hover {color:#2196F3;}
+     </style>
   </head>
   <body>
-    <header>
+    <header class="headline">
       <!--Коробка хедера (топ-линия)-->
-      <div>
         <!--Web Studio-->
-        <a href=""> Web<span>Studio</span> </a>
+        <a class="webstudio" href=""> Web<span class="studio-color">Studio</span> </a>
         <!--Панель навигации-->
-        <nav>
-          <ul>
-            <li><a href="index.html">Студия</a></li>
-            <li><a href="portfolio.html">Портфолио</a></li>
-            <li><a href="Контакты">Контакты</a></li>
+        <nav class="menunav">
+          <ul class="menunav-txt">
+            <li class="studio"><a href="index.html">Студия</a></li>
+            <li class="portf"><a href="portfolio.html">Портфолио</a></li>
+            <li class="contacts"><a href="Контакты">Контакты</a></li>
           </ul>
         </nav>
         <!--Панель адрес и телефон-->
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="menunav-txt email-hd"><a style="color: #757575" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="menunav-txt tel-hd"><a style="color: #757575" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-      </div>
     </header>
 
     <main>
       <!--Hero-->
-      <div>
+      <div class="hero-start">
         <!--Надпись-->
-        <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-        <button type="button">Заказать услугу</button>
+        <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+        <button class="hero-button" type="button"><span class="hero-button-text">Заказать услугу</span></button>
       </div>
-      <section>
-        <ul>
+      <section class="sect-properties">
+        <ul  class="sect-properties-text">
           <!-- <li>Внимание к деталям</li> -->
-          <li>
-            <h3>Внимание к деталям</h3>
+          <li class="sect-properties-first">
+            <h3 class="sect-properties-title">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
-            <h3>Пунктуальность</h3>
+          <li class="sect-properties-second">
+            <h3 class="sect-properties-title">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
-            <h3>Планирование</h3>
+          <li class="sect-properties-third">
+            <h3 class="sect-properties-title">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
-            <h3>Современные технологии</h3>
+          <li class="sect-properties-fourth">
+            <h3 class="sect-properties-title">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -69,10 +83,10 @@
         </ul>
       </section>
       <!--Чем мы занимаемся-->
-      <section>
-        <h2>Чем мы занимаемся</h2>
+      <section class="sect-what-we-doing">
+        <h2 class="sect-what-we-doing-title">Чем мы занимаемся</h2>
         <ul>
-          <li>
+          <li class="sect-what-we-doing-pic1">
             <img
               src="images/pct1.jpg"
               width="370"
@@ -80,7 +94,7 @@
               alt="Картинка 1"
             />
           </li>
-          <li>
+          <li class="sect-what-we-doing-pic2">
             <img
               src="images/pct2.jpg"
               width="370"
@@ -88,7 +102,7 @@
               alt="Картинка 2"
             />
           </li>
-          <li>
+          <li class="sect-what-we-doing-pic3">
             <img
               src="images/pct3.jpg"
               width="370"
@@ -99,27 +113,27 @@
         </ul>
       </section>
       <!--Наша команда-->
-      <section>
-        <h2>Наша команда</h2>
+      <section class="sect-our-team">
+        <h2 class="sect-our-team-title">Наша команда</h2>
         <!--Team cards-->
-        <ul>
+        <ul class="sect-our-team-box">
           <!--Team card 1-->
-          <li>
+          <li class="sect-our-team-box-ihor ">
             <img src="images/igor.jpg" width="270" height="260" alt="Игорь" />
 
-            <h3>Игорь Демьяненко</h3>
-            Продуктовый дизайнер
+            <h3 class="sect-our-team-box-title title-ihor">Игорь Демьяненко</h3>
+            <p class="sect-our-team-box-text text-ihor">Product designer</p>
           </li>
 
           <!--Team card 2-->
-          <li>
+          <li class="sect-our-team-box-olga ">
             <img src="images/Olga.jpg" width="270" height="260" alt="Ольга" />
 
-            <h3>Ольга Репина</h3>
-            Frontend Developer
+            <h3 class="sect-our-team-box-title title-olga">Ольга Репина</h3>
+            <p class="sect-our-team-box-text text-olga">Frontend Developer</p>
           </li>
           <!--Team card 3-->
-          <li>
+          <li class="sect-our-team-box-niko">
             <img
               src="images/Nikolai.jpg"
               width="270"
@@ -127,11 +141,11 @@
               alt="Николай"
             />
 
-            <h3>Николай Тарасов</h3>
-            Marketing
+            <h3 class="sect-our-team-box-title title-niko">Николай Тарасов</h3>
+            <p class="sect-our-team-box-text text-niko">Marketing</p>
           </li>
           <!--Team card 4-->
-          <li>
+          <li class="sect-our-team-box-miha">
             <img
               src="images/Mihail.jpg"
               width="270"
@@ -139,8 +153,8 @@
               alt="Михаил"
             />
 
-            <h3>Михаил Ермаков</h3>
-            UL Designer
+            <h3 class="sect-our-team-box-title title-miha">Михаил Ермаков</h3>
+           <p class="sect-our-team-box-text text-miha"> UL Designer </p>
           </li>
         </ul>
       </section>
