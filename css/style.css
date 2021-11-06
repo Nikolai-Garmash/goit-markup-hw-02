@@ -1,603 +1,614 @@
-
-
-li {list-style-type: none;}
-ul {margin-left: 0; padding-left: 0;}
-a {text-decoration: none;} 
-a {color: #212121}
-a:active {color:#2196F3;}
-a:hover {color:#2196F3;}
-button:hover { background-color: #2196F3; ; color:#ffffff;}
-button:focus { background-color: #2196F3; ; color:#ffffff;}
-a:focus {color:#2196F3;}
-
-
-.pointer {
-    cursor: pointer;
+:root {
+  --active-link-color: #2196f3;
+  --secondary-text-color: #757575;
+  --secondary-background-color: #2f303a;
 }
 
-    .hero-start {
-        position: absolute;
-        width: 1600px;
-        height: 600px;
-        left: 0px;
-        top: 80px;
-        background-color: #2F303A;
-        }
-    .hero-title {
-        position: absolute;
-        width: 696px;
-        height: 120px;
-        left: 452px;
-        top: 200px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1,36;
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        color: #FFFFFF;
-        margin-top: 0px;
-    }
-    .hero-button {
-        position: absolute;
-        width: 200px;
-        height: 50px;
-        left: 700px;
-        top: 350px;
-        background-color: #2196F3;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 1,88;
-        color: #FFFFFF;
-        letter-spacing: 0.06em;
-        }
-     
+li {
+  list-style-type: none;
+}
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+}
+a {
+  color: #212121;
+}
+a:active {
+  color: var(--active-link-color);
+}
+a:hover {
+  color: var(--active-link-color);
+}
+button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+a:focus {
+  color: var(--active-link-color);
+}
 
-    .sect-properties {
-            position: absolute;
-            width: 1170px;
-            height: 101px;
-            left: 215px;
-            top: 774px; 
-    }
+.pointer {
+  cursor: pointer;
+}
 
-    .sect-properties-first {
-        position: absolute;
-        width: 270px;
-        height: 101px;
-        left: 0px;
-        top: 0px;
-    }
-    .sect-properties-second {
-        position: absolute;
-        width: 270px;
-        height: 101px;
-        left: 300px;
-        top: 0px;
-    }
-    .sect-properties-third {
-        position: absolute;
-        width: 270px;
-        height: 101px;
-        left: 600px;
-        top: 0px;
-    }
-    .sect-properties-fourth {
-        position: absolute;
-        width: 270px;
-        height: 101px;
-        left: 900px;
-        top: 0px;
-    }
-        .sect-properties-title {
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1,17;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color: #212121;
-            margin-top: 0px;
-        }
-        .sect-properties-text {
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 14px;
-            line-height: 1,71;
-            letter-spacing: 0.03em;
-            color: #757575;
-        }
+.hero-start {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background-color: var(--secondary-background-color);
+}
+.hero-title {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 200px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 0px;
+}
+.hero-button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 350px;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1, 88;
+  color: #ffffff;
+  letter-spacing: 0.06em;
+}
 
+.sect-properties {
+  position: absolute;
+  width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
 
-        .sect-what-we-doing {
-            position: absolute;
-            width: 1170px;
-            height: 386px;
-            left: 215px;
-            top: 969px;
-        }
-        .sect-what-we-doing-title {
-            position: absolute;
-            width: 376px;
-            height: 42px;
-            left: 397px;
-            top: 0px;
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-            line-height: 1,17;
-            text-align: center;
-            letter-spacing: 0.03em;
-            color: #212121;
-            margin-top: 0px;
-        }
-        .sect-what-we-doing-pic1 {
-            position: absolute;
-            width: 370px;
-            height: 294px;
-            left: 0px;
-            top: 92px;
-        }
-        .sect-what-we-doing-pic2 {
-            position: absolute;
-            width: 370px;
-            height: 294px;
-            left: 400px;
-            top: 92px;
-        }
-        .sect-what-we-doing-pic3 {
-            position: absolute;
-            width: 370px;
-            height: 294px;
-            left: 800px;
-            top: 92px;
-        }
+.sect-properties-first {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 0px;
+  top: 0px;
+}
+.sect-properties-second {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 300px;
+  top: 0px;
+}
+.sect-properties-third {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 600px;
+  top: 0px;
+}
+.sect-properties-fourth {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 900px;
+  top: 0px;
+}
+.sect-properties-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1, 17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-top: 0px;
+}
+.sect-properties-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
 
-        .sect-our-team {
-            position: absolute;
-            width: 1600px;
-            height: 648px;
-            left: 0px;
-            top: 1449px;
-        }
-        .sect-our-team-title {
-            position: absolute;
-            width: 264px;
-            height: 42px;
-            left: 668px;
-            top: 94px;
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-            line-height: 1,17;
-            text-align: center;
-            letter-spacing: 0.03em;
-            color: #212121;
-            margin-top: 0px;
-        }
-        .sect-our-team-box {
-            position: absolute;
-            width: 1170px;
-            height: 368px;
-            left: 215px;
-            top: 186px;
-        }
-        .sect-our-team-box-ihor {
-            position: absolute;
-            width: 270px;
-            height: 368px;
-            left: 0px;
-            top: 0px;
-        }
-        .sect-our-team-box-olga {
-            position: absolute;
-            width: 270px;
-            height: 368px;
-            left: 300px;
-            top: 0px;
-        }
-        .sect-our-team-box-niko {
-            position: absolute;
-            width: 270px;
-            height: 368px;
-            left: 600px;
-            top: 0px;
-        }
-        .sect-our-team-box-miha {
-            position: absolute;
-            width: 270px;
-            height: 368px;
-            left: 900px;
-            top: 0px;
-        }
-        .sect-our-team-box-title {
-            position: absolute;   
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1,19;
-            text-align: center;
-            letter-spacing: 0.03em; 
-            color: #212121;
-        }
-        .title-ihor {
-            left: 60px;
-            top: 290px; 
-            margin-top: 0px;
-        }
-        .title-olga {
-            left: 81px;
-            top: 290px; 
-            margin-top: 0px;
-        }
-        .title-niko {
-            left: 67px;
-            top: 290px; 
-            margin-top: 0px;
-        }
-        .title-miha {
-            left: 68px;
-            top: 290px; 
-            margin-top: 0px;
-        }
-        .sect-our-team-box-text {
-            position: absolute;
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 1,19;
-            text-align: center;
-            letter-spacing: 0.03em;
-            color: #757575;
-        }
-        .text-ihor {
-            left: 70px;
-            top: 319px;
-            margin-top: 0px;
-        }
-        .text-olga {
-            left: 62px;
-            top: 319px;
-            margin-top: 0px;
-        }
-        .text-niko {
-            left: 97px;
-            top: 319px;
-            margin-top: 0px;
-        }
-        .text-miha {
-            left: 92px;
-            top: 319px;
-            margin-top: 0px;
-        }
-        .footer {
-            position: absolute;
-            width: 1600px;
-            height: 252px;
-            left: 0px;
-            background: #2F303A;
-        }
-    .footer-top-first-page {
-        top: 2097px; 
-        }
+.sect-what-we-doing {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+}
+.sect-what-we-doing-title {
+  position: absolute;
+  width: 376px;
+  height: 42px;
+  left: 397px;
+  top: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1, 17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-top: 0px;
+}
+.sect-what-we-doing-pic1 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 0px;
+  top: 92px;
+}
+.sect-what-we-doing-pic2 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 400px;
+  top: 92px;
+}
+.sect-what-we-doing-pic3 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 800px;
+  top: 92px;
+}
 
+.sect-our-team {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+}
+.sect-our-team-title {
+  position: absolute;
+  width: 264px;
+  height: 42px;
+  left: 668px;
+  top: 94px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1, 17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-top: 0px;
+}
+.sect-our-team-box {
+  position: absolute;
+  width: 1170px;
+  height: 368px;
+  left: 215px;
+  top: 186px;
+}
+.sect-our-team-box-ihor {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 0px;
+  top: 0px;
+}
+.sect-our-team-box-olga {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 300px;
+  top: 0px;
+}
+.sect-our-team-box-niko {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 600px;
+  top: 0px;
+}
+.sect-our-team-box-miha {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 900px;
+  top: 0px;
+}
+.sect-our-team-box-title {
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.title-ihor {
+  left: 60px;
+  top: 290px;
+  margin-top: 0px;
+}
+.title-olga {
+  left: 81px;
+  top: 290px;
+  margin-top: 0px;
+}
+.title-niko {
+  left: 67px;
+  top: 290px;
+  margin-top: 0px;
+}
+.title-miha {
+  left: 68px;
+  top: 290px;
+  margin-top: 0px;
+}
+.sect-our-team-box-text {
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1, 19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.text-ihor {
+  left: 70px;
+  top: 319px;
+  margin-top: 0px;
+}
+.text-olga {
+  left: 62px;
+  top: 319px;
+  margin-top: 0px;
+}
+.text-niko {
+  left: 97px;
+  top: 319px;
+  margin-top: 0px;
+}
+.text-miha {
+  left: 92px;
+  top: 319px;
+  margin-top: 0px;
+}
+.footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  background: var(--secondary-background-color);
+}
+.footer-top-first-page {
+  top: 2097px;
+}
 
 .headline {
-            position: absolute;
-            Width: 1600px;
-            Height: 80px;
-            left: 0px;
-            top: 0px;
-            border-bottom: 1px solid #ECECEC ;
-        }
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  border-bottom: 1px solid #ececec;
+}
 
+.webstudio {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.studio-color {
+  color: #000000;
+}
 
-        .webstudio {
-                position: absolute;
-                width: 145px;
-                height: 31px;
-                left: 215px;
-                top: 24px;
-                font-family: Raleway;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 26px;
-                line-height: 1,19;
-                letter-spacing: 0.03em;
-                color: #2196F3;
-                    }
-        .studio-color {
-                color: #000000;
-        }
-
-        .menunav {
-                position: absolute;
-                width: 294px;
-                height: 16px;
-                left: 453px;
-                top: 32px;
-               
-        }
-        .menunav-txt {
-                    font-family: Roboto;
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 14px;
-                    line-height: 1,14;
-                    letter-spacing: 0.02em;   
-                    color: #212121;
-            }
-            .contacts{
-                    position: absolute;
-                    width: 68px;
-                    height: 16px;
-                    left: 226px;
-                    top: 0px;
-            }
-            .portf {
-                    position: absolute;
-                    width: 77px;
-                    height: 16px;
-                    left: 99px;
-                    top: 0px;
-            }
-            .studio {
-                    position: absolute;
-                    width: 49px;
-                    height: 16px;
-                    left: 0px;
-                    top: 0px;
-            }
-        .tel-hd {
-                position: absolute;
-                width: 122px;
-                height: 16px;
-                left: 1263px;
-                top: 32px;
-        }
-        .email-hd {
-                position: absolute;
-                width: 135px;
-                height: 16px;
-                left: 1078px;
-                top: 32px;
-        }
-        .hd-color {
-            color: #757575;
-        }
+.menunav {
+  position: absolute;
+  width: 294px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+.menunav-txt {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.contacts {
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 226px;
+  top: 0px;
+}
+.portf {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 99px;
+  top: 0px;
+}
+.studio {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+}
+.tel-hd {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+}
+.email-hd {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+}
+.hd-color {
+  color: var(--secondary-text-color);
+}
 
 .portfolio {
-            position: absolute;
-            width: 1170px;
-            height: 1360px;
-            left: 215px;
-            top: 174px;
-        }
-            .filters {
-                position: absolute;
-                width: 611px;
-                height: 54px;
-                left: 280px;
-                top: 0px;
-            }
-                .filter1 {
-                    position: absolute;
-                    width: 73px;
-                    height: 38px;
-                    left: 0px;
-                    top: 0px;
-                    border-radius: 4px;
-                }
-                .filter2 {
-                    position: absolute;
-                    width: 128px;
-                    height: 38px;
-                    left: 81px;
-                    top: 0px;
-                    border-radius: 4px;
-                }
-                .filter3 {
-                    position: absolute;
-                    width: 145px;
-                    height: 38px;
-                    left: 217px;
-                    top: 0px;
-                    border-radius: 4px;
-                }
-                .filter4 {
-                    position: absolute;
-                    width: 103px;
-                    height: 38px;
-                    left: 370px;
-                    top: 0px;
-                    border-radius: 4px;
-                }
-                .filter5 {
-                    position: absolute;
-                    width: 130px;
-                    height: 38px;
-                    left: 481px;
-                    top: 0px;
-                    border-radius: 4px;
-                }
-                .filter-txt {
-                    color: #212121;
-                    background-color: #F5F4FA;
-                }
-                .project1 {
-                    position: absolute;
-                    width: 370px;
-                    height: 404px;
-                    left: 0px;
-                    top: 88px;
-                }
-                .project2 {
-                    position: absolute;
-                    width: 370px;
-                    height: 404px;
-                    left: 400px;
-                    top: 88px;
-                }
-                .project3 {
-                    position: absolute;
-                    width: 370px;
-                    height: 404px;
-                    left: 800px;
-                    top: 88px;
-                }
-                .project4 {
-                    position: absolute;
-                    width: 370px;
-                    height: 404px;
-                    left: 0px;
-                    top: 522px;
-                }
-                .project5 {
-                    position: absolute;
-                    width: 370px;
-                    height: 404px;
-                    left: 400px;
-                    top: 522px;
-                }
-                .project6 {
-                    position: absolute;
-                    width: 370px;
-                    height: 404px;
-                    left: 800px;
-                    top: 522px;
-                }
-                .project7 {
-                    position: absolute;
-                    width: 370px;
-                    height: 404px;
-                    left: 0px;
-                    top: 956px;
-                }
-                .project8 {
-                    position: absolute;
-                    width: 370px;
-                    height: 404px;
-                    left: 400px;
-                    top: 956px;
-                }
-                .project9 {
-                    position: absolute;
-                    width: 370px;
-                    height: 404px;
-                    left: 800px;
-                    top: 956px;
-                }
-                .project-titles {
-                    position: absolute;
-                    width: 322px;
-                    height: 36px;
-                    left: 24px;
-                    top: 314px;
-                    font-family: Roboto;
-                    font-style: normal;
-                    font-weight: bold;
-                    font-size: 18px;
-                    line-height: 2,0;
-                    letter-spacing: 0.06em;
-                    color: #212121;
-                }
-                .text-titles {
-                    position: absolute;
-                    width: 322px;
-                    height: 30px;
-                    left: 24px;
-                    top: 354px;
-                    font-family: Roboto;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 16px;
-                    line-height: 1,88;
-                    letter-spacing: 0.03em;
-                    color: #757575;
-
-                }
+  position: absolute;
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+  top: 174px;
+}
+.filters {
+  position: absolute;
+  width: 611px;
+  height: 54px;
+  left: 280px;
+  top: 0px;
+}
+.filter1 {
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+}
+.filter2 {
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 81px;
+  top: 0px;
+  border-radius: 4px;
+}
+.filter3 {
+  position: absolute;
+  width: 145px;
+  height: 38px;
+  left: 217px;
+  top: 0px;
+  border-radius: 4px;
+}
+.filter4 {
+  position: absolute;
+  width: 103px;
+  height: 38px;
+  left: 370px;
+  top: 0px;
+  border-radius: 4px;
+}
+.filter5 {
+  position: absolute;
+  width: 130px;
+  height: 38px;
+  left: 481px;
+  top: 0px;
+  border-radius: 4px;
+}
+.filter-txt {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+.project1 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 0px;
+  top: 88px;
+}
+.project2 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 400px;
+  top: 88px;
+}
+.project3 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 800px;
+  top: 88px;
+}
+.project4 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 0px;
+  top: 522px;
+}
+.project5 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 400px;
+  top: 522px;
+}
+.project6 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 800px;
+  top: 522px;
+}
+.project7 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 0px;
+  top: 956px;
+}
+.project8 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 400px;
+  top: 956px;
+}
+.project9 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 800px;
+  top: 956px;
+}
+.project-titles {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 24px;
+  top: 314px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2, 0;
+  letter-spacing: 0.06em;
+}
+.text-titles {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 24px;
+  top: 354px;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1, 88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
 .footer {
-            position: absolute;
-            width: 1600px;
-            height: 252px;
-            left: 0px;
-            background: #2F303A;
-        }
-        .footer-top-second-page {
-            top: 1628px; 
-        }
-            .webstudio-ft {
-                position: absolute;
-                width: 145px;
-                height: 31px;
-                left: 215px;
-                top: 60px;
-                font-family: Raleway;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 26px;
-                line-height: 1,71;
-                letter-spacing: 0.03em;
-                color: #2196F3;
-            }
-            .adress {
-                position: absolute;
-                width: 231px;
-                height: 81px;
-                left: 215px;
-                top: 111px;
-            }
-            .map {
-                position: absolute;
-                width: 231px;
-                height: 21px;
-                left: 0px;
-                top: 0px;
-                font-family: Roboto;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 14px;
-                line-height: 1,71;
-                letter-spacing: 0.03em;
-                color: #FFFFFF;
-            }
-            .email {
-                position: absolute;
-                width: 231px;
-                height: 21px;
-                left: 0px;
-                top: 39px;
-                font-family: Roboto;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 14px;
-                line-height: 1,71;
-                letter-spacing: 0.03em;
-                color: rgba(255, 255, 255, 0.6);
-            }
-            .tel {
-                position: absolute;
-                width: 231px;
-                height: 21px;
-                left: 0px;
-                top: 78px;
-                font-family: Roboto;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 14px;
-                line-height: 1,71;
-                letter-spacing: 0.03em;
-                color: rgba(255, 255, 255, 0.6);
-            }
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  background: var(--secondary-background-color);
+}
+.footer-top-second-page {
+  top: 1628px;
+}
+.webstudio-ft {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 60px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.adress {
+  position: absolute;
+  width: 231px;
+  height: 81px;
+  left: 215px;
+  top: 111px;
+}
+.map {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 0px;
+  top: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.email {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 0px;
+  top: 39px;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.tel {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 0px;
+  top: 78px;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
