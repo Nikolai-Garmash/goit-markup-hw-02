@@ -192,5 +192,5 @@ a:focus {
   color: var(--secondary-text-color);
 }
 .cursor {
-    cursor: pointer;
+  cursor: pointer;
 }
