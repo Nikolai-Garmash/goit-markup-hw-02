@@ -36,7 +36,6 @@ button:active {
 a:focus {
   color: var(--active-link-color);
 }
-
 .style-color-web-studio {
   font-family: Raleway;
   font-style: normal;
