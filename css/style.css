@@ -23,11 +23,15 @@ a:hover {
 }
 button:hover {
   background-color: #2196f3;
-  color: var(--primary-background-color);
+  color: var(--thirdery-text-color);
 }
 button:focus {
   background-color: #2196f3;
-  color: var(--primary-background-color);
+  color: var(--thirdery-text-color);
+}
+button:active {
+  background-color: #2196f3;
+  color: var(--thirdery-text-color);
 }
 a:focus {
   color: var(--active-link-color);
@@ -36,7 +40,7 @@ a:focus {
 .style-color-web-studio {
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -54,7 +58,7 @@ a:focus {
 .text-footer {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -63,15 +67,13 @@ a:focus {
 .text-footer-map {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--thirdery-text-color);
 }
 .nav {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -87,8 +89,6 @@ a:focus {
 }
 
 .heat-text {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -99,9 +99,7 @@ a:focus {
 }
 
 .detail-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -110,9 +108,7 @@ a:focus {
 }
 
 .detail-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -120,9 +116,7 @@ a:focus {
 }
 
 .w-w-doing {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -131,9 +125,7 @@ a:focus {
 }
 
 .our-team {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -142,8 +134,6 @@ a:focus {
 }
 
 .our-team-title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -152,9 +142,7 @@ a:focus {
   color: var(--primary-text-color);
 }
 .our-team-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -163,29 +151,23 @@ a:focus {
 }
 
 .text-button {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
 }
 
 .project-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
-.project-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+.project-text { 
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -193,4 +175,15 @@ a:focus {
 }
 .cursor {
   cursor: pointer;
+}
+
+.big-button {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+color: var(--thirdery-text-color);
+background-color: var(--active-link-color);
 }
